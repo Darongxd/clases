@@ -153,9 +153,12 @@ margin: auto 5px;
     height: 100%;
 }
 .left div{
-height: 5em;
+height: 50px;
 }
 .left div:hover{
     background-color: rgba(0, 0, 0, 0.601);
     border-left: solid 5px white
+}
+.left i{
+    margin: 20px;
 }

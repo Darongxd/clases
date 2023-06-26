@@ -147,3 +147,15 @@ margin: auto 5px;
 .lenguaje div:hover {
  background-color: #2282a3;
 }
+.left{
+    display: block;
+    width: 20%;
+    height: 100%;
+}
+.left div{
+height: 5em;
+}
+.left div:hover{
+    background-color: rgba(0, 0, 0, 0.601);
+    border-left: solid 5px white
+}

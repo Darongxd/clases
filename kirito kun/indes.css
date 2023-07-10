@@ -61,44 +61,53 @@ img {
     padding-left: 25px;
 
 }
-.titulo{
+
+.titulo {
     height: 25vh;
     display: flex;
     padding-right: 30%;
-    
+
 }
-.titulo h2{
+
+.titulo h2 {
     font-size: 70px;
     margin: auto;
     text-align: center;
 }
-.titulo h2 strong{
+
+.titulo h2 strong {
     font-weight: bolder;
 }
-.parrafito{
+
+.parrafito {
     height: 10vh;
     text-align: center;
     font-size: 20px;
     padding-right: 30%;
 }
-.parrafito p{
+
+.parrafito p {
     padding: 0 30px;
 }
-.azul{
+
+.azul {
     height: 5vh;
     padding-right: 30%;
 
 }
-.azul .barra{
+
+.azul .barra {
     background-color: #b8e0f7;
 }
-.bolas{
+
+.bolas {
     padding-right: 30%;
     display: flex;
     padding-top: 30px;
 
 }
-.bola{
+
+.bola {
     display: block;
     width: 70px;
     height: 70px;
@@ -107,15 +116,73 @@ img {
     border-radius: 50%;
     margin: 0 100px;
 }
-.bola.neg{
+.bola.neg {
     outline: solid 20px black
-
 }
-.bola.azu{
+.bola.azu {
     outline: solid 20px #b8e0f7;
 }
-.boli{
+
+.boli {
     margin: auto;
     display: flex;
 
 }
+.caja-der{
+    display: block;
+    width: 50vw;
+}
+.tituloder{
+    height: 20vh;
+    display: flex;
+    padding-left: 30%;
+}
+.tituloder h2{
+    font-size: 70px;
+    margin: auto;
+    text-align: center;
+}
+.parra{
+    padding-left: 30%;
+    height: 14vh;
+    z-index: 5;
+    text-align: center;
+}
+.parra p{
+    padding: 0 50px;
+    font-size: 20px;
+}
+.azu{
+    height: 10vh;
+    display: flex;
+    padding-left: 30%;
+}
+.barrazu{
+    display: block;
+    background-color: #b8e0f7 ;
+    content: "";
+    width: 140px;
+    height: 32px;
+    margin: auto;
+    margin-right: 270px;
+    margin-bottom: 50px;
+}
+.barrader{
+    display: flex;
+    padding-right: 30%;
+    background-color: black ;
+    content: "";
+    width: 50vw;
+    height: 32px;
+    margin: auto;
+    margin-right: 270px;
+    margin-bottom: 60px;
+}
+.imag{
+    width: 10%;
+    height: 10vh;
+    display: block;
+
+  
+}
+
